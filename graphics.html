@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello</title>
+</head>
+<style>
+    #mouth{
+        transition: 1s
+    }
+    #eye{
+        transition: 1s
+    }
+    #eye2{
+        transition: 1s
+    }
+    #Ojo1{
+        transition: 1s
+    }
+    #Ojo2{
+        transition: 1s
+    }
+    #Head{
+        transition: 1s
+    }
+    div{
+        text-shadow: 2px 2px 10px rgb(24, 0, 63);
+    }
+    body{
+        background-color: black;
+    }
+</style>
+<body onmouseclick="changebody()">
+    <svg width="300" height="300" onmouseenter="grow(), groweye2(), eye(), GrowOjo1(), GrowOjo2(), GrowHead()" onmouseleave="shrink(), shrinkeye2(), eye2(), shrinkOjo1(), shrinkOjo2(), ShrinkHead()">
+        <circle id="Head" cx="150" cy="150" r="100" fill="Black"
+        stroke="black" stroke-width="5"/>
+        <circle id="eye" cx="115" cy="120" r="20" fill="white"/>
+        <circle id="eye2" cx="185" cy="120" r="20" fill="white"/>
+        <circle id="mouth" cx="150" cy="220" r="10" fill="white"/>
+        <circle id="Ojo2" cx="115" cy="120" r="17" fill="black"/>
+        <circle id="Ojo1" cx="185" cy="120" r="17" fill="black"/>
+    </svg>
+    <svg width="300" height="300">
+        <circle cx="150" cy="150" r="100" fill="Orange"
+        stroke="black" stroke-width="5"/>
+        <circle cx="115" cy="120" r="20" fill="white"/>
+        <circle cx="185" cy="120" r="20" fill="white"/>
+        <circle cx="150" cy="220" r="10"/>
+        <circle cx="115" cy="120" r="17" fill="black"/>
+        <circle cx="185" cy="120" r="17" fill="black"/>
+    </svg>
+    <svg width="300" height="300">
+        <circle cx="150" cy="150" r="100" fill="rgb(150, 75, 42)"
+        stroke="black" stroke-width="5"/>
+        <circle cx="115" cy="120" r="20" fill="white"/>
+        <circle cx="185" cy="120" r="20" fill="white"/>
+        <circle cx="150" cy="220" r="10"/>
+        <circle cx="115" cy="120" r="17" fill="black"/>
+        <circle cx="185" cy="120" r="17" fill="black"/>
+    </svg>
+    <div>
+        hello...how are you...aren't you feeling amazing?......................|.....I see sun.....|.............................................|.....What if we stare.....|
+    </div>
+</body>
+<script>
+    function changebody(){
+        const body = document.getElementById("body");
+        body.setAttribute("background-color", "white")
+    }
+    function GrowHead() {
+    const circle = document.getElementById("Head");
+    circle.setAttribute("r", "120");
+    circle.setAttribute("cy", "140");
+    }
+    function ShrinkHead(){
+    const circle = document.getElementById("Head");
+    circle.setAttribute("r", "100");
+    circle.setAttribute("cy", "150");
+    }
+        function GrowOjo1() {
+        const circle = document.getElementById("Ojo1");
+        circle.setAttribute("r", "2");
+        circle.setAttribute("cy", "90");
+    }
+    function shrinkOjo1(){
+    const circle = document.getElementById("Ojo1");
+    circle.setAttribute("r", "17");
+    circle.setAttribute("cy", "120");
+    }
+            function GrowOjo2() {
+        const circle = document.getElementById("Ojo2");
+        circle.setAttribute("r", "2");
+        circle.setAttribute("cy", "90");
+    }
+    function shrinkOjo2(){
+    const circle = document.getElementById("Ojo2");
+    circle.setAttribute("r", "17");
+    circle.setAttribute("cy", "120");
+    }
+    function grow() {
+        const circle = document.getElementById("mouth");
+        circle.setAttribute("r", "55");
+        circle.setAttribute("cy", "170");
+        circle.setAttribute("fill", "white");
+    }
+    function shrink(){
+    const circle = document.getElementById("mouth");
+    circle.setAttribute("r", "10");
+    circle.setAttribute("cy", "220");
+    }
+    function eye() {
+    const circle = document.getElementById("eye");
+    circle.setAttribute("r", "30");
+    circle.setAttribute("cy", "90");
+    }
+    function eye2() {
+    const circle = document.getElementById("eye");
+    circle.setAttribute("r", "20");
+    circle.setAttribute("cy", "120");
+    }
+        function groweye2() {
+    const circle = document.getElementById("eye2");
+    circle.setAttribute("r", "30");
+    circle.setAttribute("cy", "90");
+    }
+    function shrinkeye2() {
+    const circle = document.getElementById("eye2");
+    circle.setAttribute("r", "20");
+    circle.setAttribute("cy", "120");
+    }
+</script>
+<svg width="300" height="300">
+        <circle cx="150" cy="150" r="100" fill="Yellow"
+        stroke="black" stroke-width="5"/>
+        <circle cx="115" cy="120" r="20" fill="white"/>
+        <circle cx="185" cy="120" r="20" fill="white"/>
+        <circle cx="150" cy="220" r="10"/>
+        <circle cx="115" cy="120" r="17" fill="black"/>
+        <circle cx="185" cy="120" r="17" fill="black"/>
+    </svg>
+    <svg width="300" height="300">
+        <circle cx="150" cy="150" r="100" fill="Purple"
+        stroke="black" stroke-width="5"/>
+        <circle cx="115" cy="120" r="20" fill="white"/>
+        <circle cx="185" cy="120" r="20" fill="white"/>
+        <circle cx="150" cy="220" r="10"/>
+        <circle cx="115" cy="120" r="17" fill="black"/>
+        <circle cx="185" cy="120" r="17" fill="black"/>
+    </svg>
+    <svg width="300" height="300">
+        <circle cx="150" cy="150" r="100" fill="Blue"
+        stroke="black" stroke-width="5"/>
+        <circle cx="115" cy="120" r="20" fill="white"/>
+        <circle cx="185" cy="120" r="20" fill="white"/>
+        <circle cx="150" cy="220" r="10"/>
+        <circle cx="115" cy="120" r="17" fill="black"/>
+        <circle cx="185" cy="120" r="17" fill="black"/>
+    </svg>
+    <div>
+
+        HahaahahhaAHHAHAHAHAHhahahahahahhahahahahahahhahahSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOSS
+    </div>
+    <svg width="300" height="300">
+        <circle cx="150" cy="150" r="100" fill="Red"
+        stroke="black" stroke-width="5"/>
+        <circle cx="115" cy="120" r="20" fill="white"/>
+        <circle cx="185" cy="120" r="20" fill="white"/>
+        <circle cx="150" cy="220" r="10"/>
+        <circle cx="115" cy="120" r="17" fill="black"/>
+        <circle cx="185" cy="120" r="17" fill="black"/>
+    </svg>
+    <svg width="300" height="300">
+        <circle cx="150" cy="150" r="100" fill="Green"
+        stroke="black" stroke-width="5"/>
+        <circle cx="115" cy="120" r="20" fill="white"/>
+        <circle cx="185" cy="120" r="20" fill="white"/>
+        <circle cx="150" cy="220" r="10"/>
+        <circle cx="115" cy="120" r="17" fill="black"/>
+        <circle cx="185" cy="120" r="17" fill="black"/>
+    </svg>
+    <svg width="300" height="300" onmouseenter="GrowLead(), growmouth(), Growdjo1(), Growdjo2()" onmouseleave="ShrinkLead(), shrinkmouth(), shrinkdjo1(), shrinkdjo2()">
+        <circle id="SpeechDirector" cx="150" cy="150" r="100" fill="White"
+        stroke="black" stroke-width="5"/>
+        <circle cx="115" cy="120" r="20" fill="white"/>
+        <circle cx="185" cy="120" r="20" fill="white"/>
+        <circle id="CircleDeath"cx="150" cy="220" r="10"/>
+        <circle id="pupil1" cx="115" cy="120" r="17" fill="black"/>   
+        <circle id="pupil2"cx="185" cy="120" r="17" fill="black"/>
+    </svg>
+    <div>Jingle bells, jingle bells, jinglebells, jingebells, jingebells, jinglebells, jinglebells, jinglebells, HI, I'M SO HAPPY TO SEE YOU AGAIN!!!!!</div>
+        <div></div>
+<div> im always aware</div>
+    <script>
+            function GrowLead() {
+    const circle = document.getElementById("SpeechDirector");
+    circle.setAttribute("r", "120");
+    circle.setAttribute("cy", "140");
+    }
+    function ShrinkLead(){
+    const circle = document.getElementById("SpeechDirector");
+    circle.setAttribute("r", "100");
+    circle.setAttribute("cy", "150");
+    }
+        function Growdjo1() {
+        const circle = document.getElementById("pupil1");
+        circle.setAttribute("r", "2");
+        circle.setAttribute("cy", "90");
+    }
+    function shrinkdjo1(){
+    const circle = document.getElementById("pupil1");
+    circle.setAttribute("r", "17");
+    circle.setAttribute("cy", "120");
+    }
+            function Growdjo2() {
+        const circle = document.getElementById("pupil2");
+        circle.setAttribute("r", "2");
+        circle.setAttribute("cy", "90");
+    }
+    function shrinkdjo2(){
+    const circle = document.getElementById("pupil2");
+    circle.setAttribute("r", "17");
+    circle.setAttribute("cy", "120");
+    }
+    function growmouth() {
+        const circle = document.getElementById("CircleDeath");
+        circle.setAttribute("r", "55");
+        circle.setAttribute("cy", "170");
+    }
+    function shrinkmouth(){
+    const circle = document.getElementById("CircleDeath");
+    circle.setAttribute("r", "10");
+    circle.setAttribute("cy", "220");
+    }
+    function eye() {
+    const circle = document.getElementById("eye");
+    circle.setAttribute("r", "30");
+    circle.setAttribute("cy", "90");
+    }
+    function eye2() {
+    const circle = document.getElementById("eye");
+    circle.setAttribute("r", "20");
+    circle.setAttribute("cy", "120");
+    }
+        function groweye2() {
+    const circle = document.getElementById("eye2");
+    circle.setAttribute("r", "30");
+    circle.setAttribute("cy", "90");
+    }
+    function shrinkeye2() {
+    const circle = document.getElementById("eye2");
+    circle.setAttribute("r", "20");
+    circle.setAttribute("cy", "120");
+    }
+    </script>
+</html>
