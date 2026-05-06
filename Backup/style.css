@@ -1,0 +1,16 @@
+body {
+    font-family: 'Griffy';
+    color: rgb(74, 83, 41);
+    background-color: rgb(172, 143, 105);
+}
+
+h1 {
+    text-align: center;
+}
+
+section {
+    width: 80%;
+    margin: auto;
+    border: 2px solid rgb(74, 83, 41);
+    padding: 10px;
+}
