@@ -1,0 +1,112 @@
+body {
+    background-color: lightblue;
+    font-family: 'Metamorphous', cursive;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    border: 3px dotted white;
+    padding: 30px;
+    margin: 20px;
+}
+
+nav {
+    font-size: 20px;
+    transition: font-size 0.5s ease-in-out;
+}
+
+nav:hover {
+    font-size: 22px;
+}
+
+details {
+    background-color: lightblue;
+    color: white;
+    width: 150px;
+    border: 3px dotted white;
+    padding: 10px;
+    margin: 20px;
+}
+
+#Page {
+    color: white;
+    transition: color 0.5s ease-in-out;
+}
+
+#Page:hover {
+    color: black;
+}
+
+#landscape-image {
+    transform:
+        rotate(-10deg);
+    transition: transform 0.5s ease-in-out;
+}
+
+#landscape-image:hover {
+    transform: rotate(0deg);
+    transform: translateX(70px);
+}
+
+#sun-image {
+    position: absolute;
+    right: 50px;
+    transition: transform 1s ease-in-out;
+}
+
+#sun-image:hover {
+    transform: translateX(-500px);
+}
+
+footer {
+    border: 3px dotted white;
+    font-size: 15px;
+    transition: font-size 0.5s ease-in-out;
+}
+
+footer:hover {
+    font-size: 17px;
+}
+
+.container{
+    flex-direction: row;
+    align-items: center;
+}
+
+#Cooking{
+    position:absolute;
+    left: 400px;
+    top: 220px;
+    width: 200px;
+    transition: transform 0.5s ease-in-out;
+}
+
+#Cooking:hover {
+    transform: translateX(20px);
+}
+
+#Origami{
+    position:absolute;
+    left: 400px;
+    top: 350px;
+    width: 200px;
+    transition: transform 0.5s ease-in-out;
+}
+
+#Origami:hover {
+    transform: rotate(20deg);
+}
+
+#Crochet{
+    position:absolute;
+    left: 400px;
+    top: 480px;
+    width: 200px;
+    transition: transform 0.5s ease-in-out;
+}
+
+#Crochet:hover {
+    transform: translatey(20px);
+}
