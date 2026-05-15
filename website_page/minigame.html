@@ -27,21 +27,33 @@
         </details>
     </nav>
     <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<footer>
-    <p>&copy; 2023 Finale Site. All rights reserved.</p>
-</footer>
+    <br>
+    <div><strong>Press the Start Game button to begin the game!</strong></div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <button id="startButton" onmouseover="moveButton()">Start Game</button>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <footer>
+        <p>&copy; 2023 Finale Site. All rights reserved.</p>
+    </footer>
 </body>
-</body>
+<script>
+    function moveButton() {
+        var button = document.getElementById("startButton");
+        var width = window.innerWidth;
+        var height = window.innerHeight;
+        width = Math.random() * width;
+        height = Math.random() * height;
+        button.style.left = width + "px";
+        button.style.top = height + "px";
+    }
+</script>
 
 </html>

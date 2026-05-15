@@ -70,13 +70,13 @@ footer:hover {
     font-size: 17px;
 }
 
-.container{
+.container {
     flex-direction: row;
     align-items: center;
 }
 
-#Cooking{
-    position:absolute;
+#Cooking {
+    position: absolute;
     left: 400px;
     top: 220px;
     width: 200px;
@@ -87,8 +87,8 @@ footer:hover {
     transform: translateX(20px);
 }
 
-#Origami{
-    position:absolute;
+#Origami {
+    position: absolute;
     left: 400px;
     top: 350px;
     width: 200px;
@@ -99,8 +99,8 @@ footer:hover {
     transform: rotate(20deg);
 }
 
-#Crochet{
-    position:absolute;
+#Crochet {
+    position: absolute;
     left: 400px;
     top: 480px;
     width: 200px;
@@ -109,4 +109,12 @@ footer:hover {
 
 #Crochet:hover {
     transform: translatey(20px);
+}
+
+#startButton {
+    background-color: white;
+    border: 3px dotted white;
+    position: absolute;
+    top: 100px;
+    left: 100px;
 }
