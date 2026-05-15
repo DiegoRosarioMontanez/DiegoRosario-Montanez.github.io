@@ -1,106 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        #borderimg {
-            border: 10px solid transparent;
-            padding: 15px;
-            border-image: url(border.png) 30 round;
-        }
-
-        body {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            background-color: rgb(160, 158, 187);
-        }
-
-        head {
-            background-color: rgb(160, 158, 187);
-        }
-
-        h1 {
-            border: 10px ridge rgb(191, 255, 188);
-            border: ridge;
-            padding: 200px 200px 200px 200px;
-            margin: auto;
-            background-color: rgb(178, 184, 201);
-        }
-
-        article {
-            border: 200px 200px;
-            background-color: rgb(160, 158, 187);
-        }
-
-        nav ul {
-            display: flex;
-            justify-content: space-evenly;
-            list-style-type: none;
-            padding: 0;
-        }
-
-        nav ul li {
-            margin: 10px 20px 10px 20px;
-            background-color: rgb(141, 158, 198);
-            padding: 10px;
-            border: 5px ridge rgb(191, 255, 188);
-            border-radius: 10px;
-            transition: 0.6s;
-            text-shadow: 2px 2px 5px;
-        }
-
-        nav ul li:hover {
-            background-color: rgb(168, 174, 193);
-            text-shadow: 2px 2px 5px;
-            margin: 0;
-            padding: 20px 30px 20px 30px;
-            transition: 0.6s;
-        }
-
-
-
-        article {
-            background-color: rgb(168, 174, 193);
-            width: 75%;
-            border-width: 5px;
-            border-style: ridge;
-            border-color: rgb(191, 255, 188);
-            border-radius: 10px;
-            padding: 10px;
-        }
-
-        #grad1 {
-            height: 100px;
-            background-color: rgb(178, 184, 201);
-            background-image: linear-gradient(to bottom right, rgb(178, 184, 201), rgb(191, 255, 188));
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Metamorphous&display=swap" rel="stylesheet">
+    <title>Finale Site</title>
 </head>
 
-
+<header>
+    <marquee behavior="scroll" direction="left">Welcome to Finale Site!</marquee>
+    <h1>Finale Site</h1>
+</header>
 <body>
-    <h1 id="borderimg">Page Top Header</h1>
-    <div id="grad1"></div>
     <nav>
-        <ul>
-            <li><a href="#">Link</a></li>
-            <li><a href="#">Link</a></li>
-            <li><a href="#">Link</a></li>
-            <li><a href="#">Link</a></li>
-            <li><a href="#">Link</a></li>
-        </ul>
+        <details>
+            <summary>Menu</summary>
+            <ul>
+                <li><a id="Page" href="index.html">Home Page</a></li>
+                <li><a id="Page" href="about.html">About Page</a></li>
+                <li><a id="Page" href="game.html">Game Page</a></li>
+                <li><a id="Page" href="minigame.html">Minigame Page</a></li>
+            </ul>
+        </details>
     </nav>
-    <article>
-        <h2>Article Title</h2>
-
-    </article>
-    <footer>
-        &copy; 2026
-    </footer>
+<br>
+<div><strong></strong></div>
+<br>
+<div><div>
+<br>
+<br>
+<div>Have you ever seen something called a sun? 
+    Apparently, or so I've heard, these things are big hot rocks
+    that are too hot to touch. They also have planets
+    that orbit around them, and one of those planets is
+    called Earth, which is where we live, I think.</div>
+<br>
+<br>
+<img id="sun-image" src="Sun-removebg-preview.png" alt="Sun image" width="200" height="200">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<img id="landscape-image" src="djieiDokeDoejdoed-removebg-preview.png" alt="A landscape image" width="500" height="300">
+<br>
+<br>
+<br>
+<div>Have you ever seen something called a landscape? 
+    Apparently, or so I've heard, these places are full
+    of grass and other things that are dangerous for those
+    who are perpetually inside of their abodes.
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<footer>
+    <p>&copy; 2023 Finale Site. All rights reserved.</p>
+</footer>
 </body>
 
 </html>
